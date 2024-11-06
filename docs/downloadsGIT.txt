@@ -1,3 +1,5 @@
+Пуш на гит:
+
 git init
 
 git add .
@@ -7,3 +9,8 @@ git commit -m "Первый коммит"
 git remote add origin https://github.com/BodiaBadadav/proj_calc
 
 git push -u origin master
+
+
+Сборка проекта:
+
+pyinstaller --onefile --windowed Calc.py
